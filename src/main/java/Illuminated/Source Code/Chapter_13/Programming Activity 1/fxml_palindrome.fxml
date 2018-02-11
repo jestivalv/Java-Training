@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="bp" fx:controller="PalindromeController" xmlns:fx="http://javafx.com/fxml" >
+        
+  <top>
+              
+    <HBox fx:id="hBox1" alignment="center" spacing="10" >
+      <Label text="Enter a word" fx:id="message" />
+      <TextField fx:id="userInput" minWidth="5" />
+      <Button text="check" fx:id="check"    
+          onAction="#check"/>   
+
+    </HBox>
+    
+  </top>
+  
+</BorderPane>
+

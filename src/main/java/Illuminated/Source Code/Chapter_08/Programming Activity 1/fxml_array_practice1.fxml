@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<!-- ***** 1. Student code starts here -->
+<!-- add the code to this element definition to specify  
+  the controller as ArrayPractice1Controller -->
+<BorderPane fx:id="bp" fx:controller="ArrayPractice1Controller" 
+            xmlns:fx="http://javafx.com/fxml" >
+        
+  <top>
+    <!-- ***** 2. Student code restarts here -->
+    <!-- add code to define an HBox layout that is centered 
+         with an id of hBox and spacing between controls of 10.  
+         Inside the HBox, add 2 Buttons, with text OPEN and CLOSE, 
+         id open and close. Clicking on either button 
+         triggers a call to the flip method -->
+         
+    <VBox>     
+    <HBox fx:id="hBox1" alignment="center" spacing="10" >
+
+      <Button text="Fill Values" fx:id="fill"    
+          onAction="#activity"/>
+      <Button text="Print Array" fx:id="print"    
+          onAction="#activity"/>
+      <Button text="Set Values" fx:id="set"    
+          onAction="#activity"/>
+
+    </HBox>
+    
+     <HBox fx:id="hBox2" alignment="center" spacing="10" >
+
+      <Button text="Count Frequency" fx:id="count"    
+          onAction="#activity"/>
+      <Button text="Find Minimum" fx:id="find"    
+          onAction="#activity"/>
+
+    </HBox>
+    </VBox>
+  </top>
+  
+</BorderPane>
+

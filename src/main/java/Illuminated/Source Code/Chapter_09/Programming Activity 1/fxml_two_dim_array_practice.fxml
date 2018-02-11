@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="bp" fx:controller="TwoDimArrayPracticeController" 
+            xmlns:fx="http://javafx.com/fxml" >
+        
+  <top>
+             
+    <VBox>     
+    <HBox fx:id="hBox1" alignment="center" spacing="10" >
+
+      <Button text="Fill Values" fx:id="fill"    
+          onAction="#activity"/>
+      <Button text="Print Array" fx:id="print"    
+          onAction="#activity"/>
+      <Button text="Set Values" fx:id="set"    
+          onAction="#activity"/>
+
+    </HBox>
+    
+     <HBox fx:id="hBox2" alignment="center" spacing="10" >
+
+      <Button text="Count Frequency" fx:id="count"    
+          onAction="#activity"/>
+      <Button text="Find Minimum" fx:id="find"    
+          onAction="#activity"/>
+
+    </HBox>
+    </VBox>
+  </top>
+  
+</BorderPane>
+

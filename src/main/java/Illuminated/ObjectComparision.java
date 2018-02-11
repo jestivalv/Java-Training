@@ -30,7 +30,8 @@ public class ObjectComparision {
 		
 		independenceDay2 = independenceDay1;
 		System.out.println("El objeto s es igual a t? " + (independenceDay1==independenceDay2));
-
+		
+		System.out.println("Día "+ independenceDay1.getDay());
 	}
 
 }

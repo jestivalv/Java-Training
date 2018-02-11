@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="bp" fx:controller="ArrayListController" 
+            xmlns:fx="http://javafx.com/fxml" >
+        
+  <top>
+             
+    <VBox spacing="10">     
+    <HBox fx:id="hBox1" alignment="center" spacing="10" >
+
+      <Button text="Fill Cars" fx:id="fill"    
+          onAction="#activity"/>
+      <Button text="Print Auto List" fx:id="print"    
+          onAction="#activity"/>
+      <Button text="Set Model" fx:id="set"    
+          onAction="#activity"/>
+
+    </HBox>
+    
+     <HBox fx:id="hBox2" alignment="center" spacing="10" >
+
+      <Button text="Count Model Frequency" fx:id="count"    
+          onAction="#activity"/>
+      <Button text="Find Maximum Miles" fx:id="find"    
+          onAction="#activity"/>
+
+    </HBox>
+    </VBox>
+  </top>
+  
+</BorderPane>
+

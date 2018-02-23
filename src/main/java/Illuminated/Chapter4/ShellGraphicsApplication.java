@@ -51,6 +51,24 @@ public class ShellGraphicsApplication extends Application{
 		gc.setStroke( Color.RED );
 		gc.strokeText( message, 100, 250 );
 		
+		int sX = 275;
+		int sY = 100;
+		gc.setFill(Color.CORAL);
+		gc.fillOval(sX, sY + 20, 120, 160);
+		gc.setFill(Color.DARKGOLDENROD);
+		gc.fillRect(sX + 30, sY, 60, 30);
+		gc.setStroke(Color.DARKGOLDENROD);
+		gc.setLineWidth(3);
+		gc.strokeLine( sX, sY + 30, sX + 120, sY + 30 ); 
+		gc.setFill( Color.CHOCOLATE ); // eye 
+		gc.fillOval( sX + 80, sY + 60, 24, 16 ); 
+		gc.setFill( Color.DARKSALMON ); // feet
+		gc.setLineWidth( 1 );
+		gc.fillOval( sX + 64, sY + 166, 60, 16 ); 
+		gc.strokeOval( sX + 64, sY + 166, 60, 16 ); 
+		gc.fillOval( sX + 36, sY + 170, 60, 16 );
+		gc.strokeOval( sX + 36, sY + 170, 60, 16 );
+ 
 		
 	}
 
